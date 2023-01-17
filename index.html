@@ -39,15 +39,21 @@
     </div>
 </nav>
 <!-- showcase -->
-<section class="bg-dark text-light p-lg-0 text-center text-sm-start">
+<section
+        class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+>
     <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-            <div class="pb-sm-5">
-                <h1>Welcome to my <span class="text-warning">resume</span></h1>
-                <p class="lead">
+            <div>
+                <h1>Welcome to my <span class="text-warning"> resume </span></h1>
+                <p class="lead my-4">
                     Hello, my name is Avinash Tiwari and this is my <span class="text-warning">portfolio</span>.
                 </p>
-                <button class="btn btn-primary btn-lg">Download my resume(pdf)</button>
+                <button
+                        class="btn btn-primary btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#enroll"
+                >Download my resume(pdf)</button>
             </div>
             <img class="img-fluid w-50 d-none d-sm-block" src="img/show1.svg" alt="">
         </div>
@@ -55,13 +61,12 @@
 </section>
 
 <!-- Contact me  -->
-<section class="bg-primary text-light p-5">
+<section class="bg-primary text-light p-5 text-center text-sm-start">
     <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
-            <h3 class="mb-3 mb-md-0">Want to contact me?</h3>
+            <h3 class="mb-3 mb-md-0">Want to connect?</h3>
 
             <a class="btn btn-dark" href="#contact" role="button">Contact Me</a>
-
         </div>
     </div>
 </section>
@@ -69,11 +74,10 @@
 <!--Skill part-->
 <section>
     <div class="container">
-        <div class="text-center h3 pt-3">Skills</div>
+        <div class="text-center h3 pt-3">SKILLS</div>
     </div>
 </section>
-
-<section class="p-5">
+<section class="px-5">
     <div class="container">
         <div class="row text-center g-4">
             <div class="col-md">
@@ -84,7 +88,7 @@
                     </div>
                     <h3 class="card-title">Programming</h3>
                     <p class="card-text mb-2">
-                       JavaScript, HTML5, CSS3, BootStrap, SQL, C#, C/C++, Kotlin, VB.Net, ASP.NET, Python, Git.
+                       JavaScript, HTML5, CSS3, BootStrap, SQL, C#, C/C++, Kotlin, VB.NET, ASP.NET, Python, Git.
                     </p>
                 </div>
 
@@ -121,32 +125,38 @@
 </section>
 
 <!--Experience part -->
-<section class="p-5" id="ach">
+<section>
     <div class="container">
-        <h2 class="text-center mb-4" >EXPERIENCE</h2>
+        <div class="text-center h3 pt-3">EXPERIENCE</div>
+    </div>
+</section>
+<section id="experience" class="px-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
 
-        <div class="col-md p-5">
-            <p class="lead">
-                <span class="text-primary">Analyst | eClerx Service Limited</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nov 2020 to Aug 2021<br>
-                eClerx provides business process management, automation and analytics services to a number of Fortune 2000 enterprises, including some of the world’s leading financial services, communications, retail, fashion, media & entertainment, manufacturing, travel & leisure, and technology companies.<br>
-                • Designing functional Email developments templates in HTML5, JavaScript and CSS3.<br>
-                • Designs digital marketing templates.<br>
-                • Processing web publishers and maintaining the repository.
-            </p>
+            <div class="col-md">
+                <p class="lead">
+                    <span class="text-primary">Analyst | eClerx Service Limited</span> <br><u>Nov 2020 to Aug 2021</u><br>
+                    eClerx provides business process management, automation and analytics services to a number of Fortune 2000 enterprises, including some of the world’s leading financial services, communications, retail, fashion, media & entertainment, manufacturing, travel & leisure, and technology companies.<br> During this term, I was responsible for: <br>
+                    • Designing functional templates for email development in HTML5, JavaScript and CSS3.<br>
+                    • Designing digital marketing templates.<br>
+                    • Processing web publishment and maintaining the repository.
+                </p>
+
+            </div>
         </div>
     </div>
-
 </section>
 
 <!--Degree Part -->
-<section id="edu" class="p-5">
+<section id="edu" class="px-5 pt-2">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
                 <img src="img/edu1.svg" class="img-fluid" alt="">
             </div>
-            <div class="col-md p-5">
-                <h3>EDUCATION BACKGROUND</h3>
+            <div class="col-md pt-3">
+                <h3 class="text-center">EDUCATIONAL BACKGROUND</h3>
                 <p class="lead">
                     <span class="text-danger">Nottingham Trent University<br></span> Master`s degree in Computing Systems - 2022<br>
                     ▪ &nbsp;Major in Software Engineering, Systems analysis and design, and Mobile interactive systems.<br>
@@ -163,21 +173,22 @@
 </section>
 
 <!--Project part -->
-<section id="project" class="p-5 bg-dark">
+
+<section id="project" class="px-5 bg-dark">
     <div class="container">
         <div class="row align-items-center justify-content-between">
 
             <div class="col-md p-5 text-light">
-                <h3>PROJECTS</h3><h6>(Click on project's name for details)</h6>
+                <h3 class="text-center">PROJECTS</h3><h6 class="text-center">(Click on project's name for details)</h6>
 
                 <p>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"><i class="bi bi-chevron-right"></i>
+                <button class="btn btn-primary text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"><i class="bi bi-chevron-right text-center"></i>
                     Nottingham Trent University Chatbot
                 </button>
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="collapseWidthExample">
-                        <div class="card card-body" style="width: 400px;">
+                        <div class="card card-body" style="width: 250px;">
                             • &nbsp;Chatbot was designed and implemented to help &nbsp;&nbsp;&nbsp;&nbsp;University’s computer department students as a &nbsp;&nbsp;&nbsp;&nbsp;guide throughout the campus.<br> &nbsp;&nbsp;&nbsp;&nbsp;It also has some emergency features and maps &nbsp;&nbsp;&nbsp;connectivity.<br>
                             • &nbsp;Developed in python using chatterbot library &nbsp;&nbsp;&nbsp;and frontend was developed using JavaScript.<br>
                             • &nbsp;Received the 'Best project of the year' award for &nbsp;&nbsp;&nbsp;this project from the university along with a &nbsp;&nbsp;&nbsp;monetary award.<br>
@@ -187,14 +198,14 @@
                     </div>
                 </div>
                 <p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"><i class="bi bi-chevron-right"></i>
+                    <button class="btn btn-primary text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"><i class="bi bi-chevron-right text-center"></i>
                     Workflow Management System
                     </button>
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="collapseExample">
-                        <div class="card card-body" style="width: 400px;">
-                            • System was designed to provide all basic &nbsp;&nbsp;workflow management.<br>
+                        <div class="card card-body" style="width: 250px;">
+                            • System was designed to provide all basic &nbsp;&nbsp;Workflow management.<br>
                             • Developed in C# language.
                             <a class="btn btn-primary btn-sm" href="https://github.com/avinasht801/Workflow-Management" target="_blank" role="button">Git repository</a>
                         </div>
@@ -207,7 +218,7 @@
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="androidapp">
-                        <div class="card card-body" style="width: 400px;">
+                        <div class="card card-body" style="width: 250px;">
                             • Application was completely based on GPS &nbsp;&nbsp;&nbsp;navigation to locate the nearest tram stops from &nbsp;&nbsp;&nbsp;your current location.<br>
                             • Application was developed in Kotlin language &nbsp;&nbsp;&nbsp;with Google firebase database.<br>
                             • Awarded Distinction for this application.
@@ -222,7 +233,7 @@
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="tramapp">
-                        <div class="card card-body" style="width: 400px;">
+                        <div class="card card-body" style="width: 250px;">
                             • System was designed in console application.<br>
                             • System provides booking operations, tram &nbsp;&nbsp;&nbsp;finder, and email notifier.<br>
                             • Awarded Distinction for this system.
@@ -237,7 +248,7 @@
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="BPE">
-                        <div class="card card-body" style="width: 400px;">
+                        <div class="card card-body" style="width: 250px;">
                             • System was based on chafing by tweaking the &nbsp;&nbsp;&nbsp;algorithm.<br>
                             • System provides protection to passwords by &nbsp;&nbsp;&nbsp;creating several decoy passwords and keeping &nbsp;&nbsp;&nbsp;pivot value on real passwords.<br>
                             • Developed in Java and SQL.
@@ -253,7 +264,7 @@
                 </p>
                 <div>
                     <div class="collapse collapse-horizontal text-dark" id="IMS">
-                        <div class="card card-body" style="width: 400px;">
+                        <div class="card card-body" style="width: 250px;">
                             • System was based on managing inventory &nbsp;&nbsp;stocks of luxury gemstones.<br>
                             • Developed in VB.NET and SQL.
                             <a class="btn btn-primary btn-sm" href="https://github.com/avinasht801/GemstoneManagement" target="_blank" role="button">Git repository</a>
@@ -275,7 +286,7 @@
 
       <h2 class="text-center mb-4" >ACHIEVEMENTS</h2>
 
-        <div class="accordion accordion-flush" id="ach">
+        <div class="accordion accordion-flush">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -294,7 +305,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">• Awarded Best Project of the year by the University for the final dissertation in Masters – Chatbot developed in python using chatterbot library and Flask microframework.</div>
+                    <div class="accordion-body">Awarded Best Project of the year by the University for the final dissertation in Masters – Chatbot developed in python using chatterbot library and Flask microframework.</div>
                 </div>
             </div>
             <div class="accordion-item">
